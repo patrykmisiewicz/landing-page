@@ -1,0 +1,28 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.left-links ul,
+.right-links ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display:flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.left-links {
+    margin-right: auto;
+}
+
