@@ -2,7 +2,7 @@
 
 The odin project landing page exercise respiratory.
 
-Images source:
+Image and font source:
 
 Logo made using: https://canva.com
 
