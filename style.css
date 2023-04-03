@@ -1,14 +1,25 @@
+
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     width: 100px;
     height: 100px;
 }
 
-.left-links ul,
-.right-links ul {
+.links ul {
     display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    gap: 10px;
 }
 
 a {
@@ -18,11 +29,178 @@ a {
 
 .header {
     display:flex;
-    padding-bottom: 10px;
     border-bottom: 2px solid black;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
 }
 
-.left-links {
-    margin-right: auto;
+.links {
+    margin-left: auto;
+}
+
+li {
+    background-color: #7A42D9;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: ;
+}
+
+li:hover {
+    background-color: #4c2d81;
+    color: white;
+}
+
+.fbaner {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.leftb {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-start ;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.btitle {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.btext {
+    text-align: left;
+}
+
+.bbutton {
+    flex-grow: 0;
+    margin: 0;
+    color: white;
+    background-color: #7A42D9;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+button.bbutton:hover {
+    color: white;
+    background-color: #4c2d81;
+}
+
+.banerimg {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.fline {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.mainame{
+    font-size: 40px;
+}
+
+.tcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mname {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.mtext {
+    background-color: #7A42D9;
+    color:white;
+    flex: 1 0 400px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    text-align: justify;
+}
+
+.actback {
+    background-image: url(./images/lbaner.png);
+    background-size:contain;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.actcall {
+    display:flex;
+    justify-content: space-around;
+    background-color: #4c2d81;
+    margin: 150px;
+    padding: 50px;
+
+}
+
+.actheader {
+    font-weight: bold;
+}
+
+.actcontainer {
+    background-color: #7A42D9;
+    color:white;
+    flex: 1 0 500px;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    margin: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.footer {
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d1a4d;
+    padding: 10px;
+    font-size: 14px;
+
 }
 
