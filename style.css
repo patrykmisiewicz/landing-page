@@ -78,6 +78,7 @@ li:hover {
 
 .btext {
     text-align: left;
+    font-family: sans-serif;
 }
 
 .bbutton {
@@ -143,6 +144,7 @@ button.bbutton:hover {
     border-radius: 20px;
     max-width: 400px;
     text-align: justify;
+    font-family: sans-serif;
 }
 
 .actback {
@@ -201,6 +203,7 @@ button.bbutton:hover {
     background-color: #2d1a4d;
     padding: 10px;
     font-size: 14px;
+    font-family: sans-serif;
 
 }
 
